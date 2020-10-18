@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp2375304.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.survey-top {
+    text-align: center;
+
+}
+
+form {
+    margin: auto;
+    width: 35%;
+    color: black;
+    background: teal;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.recommendation-options {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 85%;
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+#comments {
+    min-height: 120px;
+    width: 85%;
+    padding: 0.625rem;
+    resize: vertical;
+}
