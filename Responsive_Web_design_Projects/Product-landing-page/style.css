@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #edf2f4;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;    
+}
+
+nav a {
+    text-decoration: none;
+    color: #edf2f4;
+    text-transform: uppercase;
+    font-family: Varela;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #d90429;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+@media (max-width: 650px) {
+    nav > ul {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    header {
+        flex-direction: column;
+    }
+}
+
+.brand-img {
+    display: flex;
+    width: 65vw;
+}
+
+header {
+    margin: 5px 5px 50px 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 20px;
+    background-color: #2b2d42;
+    border: 2px solid #d90429;
+    border-radius: 10px;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.7em;
+    align-content: center;
+}
+
+.article-1 {
+    display: flex;
+    padding: 10px;
+}
+
+.article-2 {
+    display: flex;
+    height: 200px;
+    border-top: 1px solid #d90429;
+}
+
+#left-footer {
+    width: 80vw;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#right-footer {
+    width: 20vw;
+    background-color: #8d99ae;
+}
+
+#left-content {
+    display: flex;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 90%;
+    height: 90%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.ip-field {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.ip-field:hover, .ip-field:active{
+    border: 2px solid #d90429;
+}   
+
+#right-content {
+    width: 30vw;
+    padding: 20px;
+    background-color: #8d99ae;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media (max-width: 650px) {
+    .article-1 {
+        flex-direction: column;
+    }
+
+    #right-content {
+        width: 100vw;
+    }
+}
+
+#about-section {
+    padding: 20px;
+}
